@@ -1,0 +1,282 @@
+/*PAGES*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue;
+    background-color: #dedede;
+    
+}
+
+/*TITRES*/
+h1{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    color: crimson;
+    font-size: 80px;
+    background-color: #c4b8b8;
+    
+}
+h2{
+    text-align: center;
+    margin: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h3{
+    text-align: center;
+}
+
+
+/*LIENS*/
+.nav{
+    color: darkred;
+    text-decoration: none;
+    background-color: #c4b8b8;
+    padding: 10px 50px;
+    transition: 0.5s ease;
+    
+}
+.nav:hover{
+    text-decoration: none;
+    color: tomato;
+    border-bottom: 2px solid;
+    padding-bottom: 7px;
+}
+
+h1 #titre{
+    color: crimson;
+    text-decoration: none;
+    background-color: #c4b8b8;
+    transition: 1s ease;
+}
+h1 #titre:hover{
+    color: tomato;
+}
+
+#connect{
+    text-decoration: none;
+    color: darkred;
+    transition: 1s ease;
+    
+}
+#connect:hover{
+    color: tomato;
+}
+#footer li a{
+    color: darkred;
+    text-decoration: none;
+    transition: 1s ease;
+}
+#footer li a:hover{
+    color: tomato;
+}
+
+
+/*MENU - HEADER*/
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 13px;
+    padding: 17px;
+    background-color: #dedede;
+}
+#header li{
+    background-color: #dedede; /*effacer petite ligne dessous*/
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 20px;
+    background-color: #c4b8b8;
+}
+.ban_menu{
+    padding:10px;
+    background-color: #c4b8b8;
+}
+
+#msg_perso{
+    color: tomato;
+    background-color: #c4b8b8; /*A REVOIR!!!*/
+}
+ul li{
+    background-color: #c4b8b8;
+}
+
+/*CONTACTS*/
+#contacts{
+    text-align: center;
+    background-color: #fff;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+}
+#contacts p{
+    background-color: #fff;
+}
+#contacts p a{
+    background-color: #fff;
+    color: darkred;
+    text-decoration: none;
+}
+#contacts p a:hover{
+    color: tomato;
+} 
+
+/*FORMULAIRES*/
+.form_co{
+    text-align: center;
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    outline-style: outset; 
+    outline-color: tomato;
+}
+#login{
+    margin: 10px;
+    padding: 20px;
+}
+
+#connexion{
+    color: crimson;
+    border-radius: 6px;
+    transition: 0.5s;
+    padding: 16px 30px;
+    margin-top: 20px;
+}
+#connexion:hover{
+    box-shadow: 0 0 0 2px #c4b8b8, 0 0 0 4px tomato;
+}
+
+#erreur{
+    color: lightslategrey;
+    font-size: 12px;
+}
+
+.list-produits{
+    background-color: #fff;
+    margin: 90px;
+}
+
+.content{
+    display: inline-block;
+    border: 2px solid;
+    padding: 30px;
+    margin: 45px;
+    text-align: center;
+    border-radius: 20px;
+}
+.content:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#ajout{
+    color: #777;
+    font-size: 13px;
+}
+
+
+/*ICONES*/
+#trash{
+    background-color: #fff;
+    color: crimson;
+}
+#trash:hover{
+    color: tomato;
+}
+#trash i{
+    background-color: #fff;
+}
+
+#warning{
+    background-color: #dedede;
+    color: tomato;
+    font-size: 17px;
+}
+#add{
+    color: crimson;
+}
+#add:hover{
+    color: tomato;
+}
+#footer li i{
+    background-color: #c4b8b8;
+    display: inline-flex;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+/*PANIER*/
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    border: 0.5px solid #c4b8b8;
+}
+th, td{
+    background-color: #fff;
+    padding: 20px;
+}
+.titres_panier th{
+    font-size: 10px;
+    border-bottom: 0.5px solid #c4b8b8;
+}
+.total th{
+    border-top: 0.5px solid #c4b8b8;
+    font-size: 15px;
+}
+#msg_panier_vide{
+    text-align: center;
+}
+a span{
+    background-color: tomato;
+    color: #fff;
+    padding: 5px 7px 5px 7px;
+    font-size: 8px;
+    border-radius: 50%;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: #c4b8b8;
+    text-align: start;
+    padding: 20px;
+    margin-top: 100px;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    list-style: none;
+    background-color: #c4b8b8;
+}
+.conditions{
+    list-style: none;
+    padding: 20px;
+    background-color: #c4b8b8;
+}
+.conditions li{
+    margin-bottom: 15px;
+}
+
+.politiques{
+    text-decoration: none;
+    color: darkred;
+    background-color: #c4b8b8;
+ 
+}
+.politiques:hover{
+    color: tomato;
+}
+
+
